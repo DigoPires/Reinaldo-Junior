@@ -85,7 +85,14 @@ header{
     gap: 20px;
 }
 .rede-social img{
-    width: 3vw;
+    width: 2.8vw;
+    transition: transform 0.1s ease-in-out;
+    box-shadow: 0px 0px 20px #242424;
+    border-radius: 50px;
+}
+
+.rede-social img:hover{
+    transform: scale(1.1);
 }
 
 @media (max-width: 1360px){
@@ -170,7 +177,7 @@ header{
     }
 
     .rede-social img{
-        width: 8vw;
+        width: 7.5vw;
     }
 }
 

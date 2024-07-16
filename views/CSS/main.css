@@ -78,6 +78,8 @@
 }
 
 .botao-queroEndo{
+    z-index: 1;
+    position: relative;
     color: rgb(216, 216, 216);
     background-color: #03355f;
     width: 25vw;
@@ -168,6 +170,8 @@
 }
 
 .conteudo-galeria-img{
+    z-index: 1;
+    position: relative;
     width: 12vw;
     height: 12vw;
     transition: transform 0.1s ease-in-out;
