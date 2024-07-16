@@ -133,7 +133,8 @@ header{
     }
 
     .mobile-menu-fechar-x{
-        padding: 0px 0px 50px 0px;
+        padding-bottom: 50px;
+        transform: translateX(-10%);
     }
 
     .nav{
