@@ -27,9 +27,11 @@ export class MemStorage implements IStorage {
     
     // Initialize with default admin user
     // Para produção, use variáveis de ambiente para maior segurança
-    const adminUsername = process.env.ADMIN_USERNAME || "admin";
-    const adminPassword = process.env.ADMIN_PASSWORD || "Dr@Reinaldo2024!";
-    this.createUser({ username: adminUsername, password: adminPassword });
+    const adminUsername = process.env.ADMIN_USERNAME;
+    const adminPassword = process.env.ADMIN_PASSWORD;
+    if (adminUsername && adminPassword) {
+      this.createUser({ username: adminUsername, password: adminPassword });
+    }
     
     // Initialize with sample photos
     this.initializePhotos();
@@ -44,7 +46,7 @@ export class MemStorage implements IStorage {
 
   async getUserByUsername(username: string): Promise<User | undefined> {
     return Array.from(this.users.values()).find(
-      (user) => user.username === username,
+      (user) => user.username.toLowerCase() === username.toLowerCase(),
     );
   }
 
