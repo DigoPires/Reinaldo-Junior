@@ -1,0 +1,83 @@
+Crie um site moderno, responsivo e animado para divulgar meu trabalho como dentista. O nome do projeto é "Dentista Delivery". Sou o Dr. Reinaldo Junior, especialista em endodontia, e ofereço atendimento com foco em EndoDelivery (tratamento de canal fora do consultório).
+
+O site deve conter:
+
+🧑‍⚕️ Seção de Apresentação
+Nome: Dr. Reinaldo Junior
+
+Uma foto minha
+
+Destaques em números:
+
++1000 canais tratados
+
++10 Indicadores Parceiros
+
++3 Anos de Experiência
+
+ℹ️ Seção "Sobre mim"
+Um breve texto contando quem sou, meu diferencial, e explicando o que é o serviço de EndoDelivery.
+
+🔗 Redes Sociais
+Botões com ícones para:
+
+Instagram
+
+Facebook
+
+WhatsApp (com botão que abre conversa direta via link personalizado)
+
+🎠 Carrossel de Avaliações
+Um carrossel com 3 a 5 avaliações positivas fixas, escritas manualmente, com nome ou clínica do autor.
+
+Animações suaves de transição.
+
+Abaixo do carrossel, um botão: “Envie sua avaliação”, que leva a um Google Forms externo (link pode ser placeholder por enquanto).
+
+🖼️ Galeria de Fotos
+Layout em grade com miniaturas.
+
+Clique nas imagens abre uma versão ampliada (lightbox).
+
+🔐 Área Administrativa
+Acesso via rota /admin, protegida por login simples (1 usuário fixo).
+
+O administrador pode:
+
+Adicionar novas fotos à galeria
+
+Excluir fotos existentes
+
+Pode ser feito com JavaScript simulado (sem backend) ou com Firebase/Supabase se disponível.
+
+✨ Experiência Visual (UX/UI)
+Elementos animados com transições suaves (fade-ins, hover effects, animação nos cards e botões).
+
+Design moderno, leve e adaptável para celular, tablet e desktop.
+
+🔣 Logo Personalizada
+Uma logo com as letras “R” e “J” (iniciais de Reinaldo Junior)
+
+Duas versões:
+
+Para fundo claro (ex: branco)
+
+Para fundo escuro (ex: preto)
+
+Pode conter um ícone dental sutil
+
+Entregar em SVG e PNG, se possível.
+
+🎨 Paleta de Cores Sugerida
+Azul moderno, branco, cinza escuro/preto
+
+Pode ter toques sutis de roxo ou turquesa, se combinarem
+
+Tipografia clara e profissional
+
+Tecnologias preferidas:
+HTML, CSS e JavaScript puros
+
+Estrutura modular e limpa para futura edição
+
+Galeria e carrossel com bibliotecas JS leves se necessário (ex: Swiper, Lightbox.js)
